@@ -12,7 +12,7 @@ def Main():
             [sg.Button(".",size = (8,1)), sg.Button("0",size = (8,1)), sg.Button("=",size = (8,1)), sg.Button("+",size = (8,1))],
             ]
 
-    window = sg.Window("Login Portal", layout)
+    window = sg.Window("Calculator", layout)
     buffer = ""
     temp = ''
 
